@@ -26,7 +26,7 @@ class Molecule {
     }
 
     getPower() {
-        return Math.min(10, 1 + this.level * 0.0001);
+        return Math.min(10, 1 + this.level * 0.001);
     }
 
     getValue() {
